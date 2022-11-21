@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Verifica-Mega</title>
+    <link rel="shortcut icon" href="./images/favicon128.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="corpo">
+        <div id="topo">
+            <img id="logo" src="./images/Icon-Verifica-Mega.png">
+            <h1 id="titulo">Verifica-Mega</h1>
+            <p id="subtitulo">Verifica números já sorteados nos concursos anteriores da Mega-Sena.</p>
+        </div>
+
+        <h2 id="insiraText">Insira os números que deseja verificar:</h2>
+        <div id="inputDiv">
+            <input type="number" id="inputNumeros" class="input" maxlength="2" placeholder="1°"
+                oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+            <input type="number" id="inputNumeros" class="input" maxlength="2" placeholder="2°"
+                oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+            <input type="number" id="inputNumeros" class="input" maxlength="2" placeholder="3°"
+                oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+            <input type="number" id="inputNumeros" class="input" maxlength="2" placeholder="4°"
+                oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+            <input type="number" id="inputNumeros" class="input" maxlength="2" placeholder="5°"
+                oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+            <input type="number" id="inputNumeros" class="input" maxlength="2" placeholder="6°"
+                oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+        </div>
+
+        <h3 id="resposta">Os números 10, 30 ja foram sorteados em concursos anteriores!</h3>
+
+        <button class="button" id="verificarJogo">Verificar Jogo</button>
+        <button class="button" id="geraNumeros">Gerar números únicos</button>
+
+    </div>
+
+    <script src="script.js"></script>
+    <!-- Roda javascript separado -->
+
+</body>
+
+</html>

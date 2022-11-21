@@ -1,0 +1,130 @@
+#corpo {
+    background-color: #f8f8f8;
+    width: 490px;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#topo {
+    background-color: #0065b7;
+    width: 490px;
+    height: 170px;
+    border-radius: 5px;
+}
+
+#logo {
+    width: 60px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#titulo {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 63px;
+    color: #f8f8f8;
+
+    display: inline-block;
+    margin: 10px;
+}
+
+#subtitulo {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 24px;
+    color: #f8f8f8;
+
+    margin: 10px;
+}
+
+#insiraText {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 27px;
+    color: #4c556c;
+
+    padding-top: 20px;
+    margin: 10px;
+}
+
+.input {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+
+    padding: 15px;
+    margin-left: 5px;
+
+    outline: none;
+    border: 0px solid rgb(0, 0, 0);
+    background-color: #209869;
+
+    color: white;
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+    font-size: 28px;
+}
+
+.input:hover {
+    background-color: #26aa77;
+    border: 1px solid rgb(100, 100, 100);
+    width: 38px;
+    height: 38px;
+}
+
+#resposta {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 24px;
+    color: #4c556c;
+
+    padding-top: 25px;
+    margin: 10px;
+}
+
+
+.button {
+    width: 100%;
+    padding: 15px;
+    margin-top: 15px;
+
+    border: none;
+    border-radius: 5px;
+    border: 1px solid rgba(109, 109, 109, 0.644);
+
+    font-family: 'League Spartan', sans-serif;
+    font-size: 24px;
+    background-color: white;
+    color: #0065b7;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgba(235, 235, 235, 0.89);
+    color: #006ec9;
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #f8f8f877;
+    opacity: 1;
+    /* Firefox */
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #f8f8f877;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #f8f8f877;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+
+}
